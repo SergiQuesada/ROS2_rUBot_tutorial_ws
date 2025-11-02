@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
     'console_scripts': [
-        'move_turtle_exec = ros2_move_turtle.move_turtle:main',
+        'move_turtle = ros2_move_turtle.move_turtle:main',
     ],
     },
 )
